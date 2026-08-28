@@ -17,3 +17,7 @@
 
 Independent integration Reviewer: `/root/cheshi_v2_reviewer_terra`; prior conclusion: Reject on `d177239` pending metadata corrections. Current `44a9c17` has not yet received an independent re-review.
 Project Acceptor: `unknown`. PR and `main` merge: not authorized or performed.
+
+The project owner later authorized a documentation-only scope exception for
+`README.md` and a `npm run summary` script entry in `package.json`. The next
+independent review must include that commit before acceptance.

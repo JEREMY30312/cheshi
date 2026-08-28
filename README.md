@@ -1,12 +1,14 @@
 # Reading List CLI Fixture
 
 This repository is an intentionally small, offline baseline for validating a
-single-repository collaboration workflow. It currently supports only `list`.
+single-repository collaboration workflow. It supports `list` and the
+reading-summary validation feature's `summary` command.
 
 ## Commands
 
 ```sh
 npm run list
+npm run summary
 npm test
 ```
 
@@ -15,7 +17,7 @@ no network requests and does not modify the fixture.
 
 ## Baseline Boundary
 
-This initial baseline does not include state normalization, summaries, or a
-`summary` command. Those are reserved for a later collaboration validation
-feature with separately assigned modules and reviews.
-
+The reading-summary validation feature adds state normalization and a
+deterministic `summary` command. It remains on an integration branch pending
+independent review and Project Acceptor approval; it has not been merged to
+`main`.

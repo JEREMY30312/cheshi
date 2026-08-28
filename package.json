@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "list": "node bin/reading-list.js list",
+    "summary": "node bin/reading-list.js summary",
     "test": "node --test"
   }
 }
-

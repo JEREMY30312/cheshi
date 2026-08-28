@@ -9,6 +9,9 @@
 - Owner: implementation owner not assigned; Project Acceptance remains blocked
 - Project Acceptor: `unknown`
 - Implementation authorization: granted by project owner instruction for MOD-001, MOD-002, and INT-001; main merge remains unauthorized.
+- Documentation scope exception: the project owner authorized `README.md` and
+  `package.json` updates solely to expose the implemented `summary` command;
+  this exception changes no module contract or runtime behavior.
 
 ## Module Evidence Binding
 
