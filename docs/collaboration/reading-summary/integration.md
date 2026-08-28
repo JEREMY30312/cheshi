@@ -4,23 +4,23 @@
 
 - Feature: `FEAT-READING-SUMMARY`
 - Repository: `https://github.com/JEREMY30312/cheshi.git`
-- Integration branch: `feature/reading-summary-integration`
+- Integration branch: `feature/reading-summary-integration-v2`
 - Base package commit: `a13a80e22b07cd51d99fd76780b170196b3e9617`
-- Owner: `unknown` (must be assigned before project acceptance)
+- Owner: implementation owner not assigned; Project Acceptance remains blocked
 - Project Acceptor: `unknown`
+- Implementation authorization: granted by project owner instruction for MOD-001, MOD-002, and INT-001; main merge remains unauthorized.
 
 ## Module Evidence Binding
 
-The integration branch contains the final heads of both worker branches:
+The v2 integration snapshot contains the rebuilt module commits:
 
 | Module | Final branch head | Implementation commit | Reviewer evidence commit |
 | --- | --- | --- | --- |
-| MOD-001 | `a7eefb03fdfcb511a1819e983231ad22979c787a` | `79a992e70f4988f34e88237c60a6a16bb7a4c176` | Reviewer recorded in module handoff; final branch head includes handoff |
-| MOD-002 | `97de54f83ab73279779645b65febadc0120bffb1` | `ea4355c1d31c80c239bc184ae470f3305933026a` | `5a705ba46fb84b9533cd726ebe7bd8e3e5783346` |
+| MOD-001 | v2 commit `16fedd3` | `16fedd3` | v2 review receipt at `d177239` |
+| MOD-002 | v2 commit `f19f38a` | `f19f38a` | v2 review receipt at `d177239` |
 
-The final branch heads are the commits bound to this integration. Any later
-change to module code, contract, or evidence requires re-running the relevant
-review and updating this table.
+The current implementation snapshot reviewed by the independent Reviewer is
+`d177239558798f4d1c8e2eb7fa30f7fab5c2372e`.
 
 ## Integration Behavior
 
