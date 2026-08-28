@@ -5,8 +5,7 @@
 - Contract/package SHA-256: `3a80db5877c901317f4afbb07d99856dd0d0591659a5f880b2d3820d0abb9516`
 - Integration implementation commit: `c1dfd2a`
 - Failure-path test commit: `16fc789`
-- Independent Reviewer receipt: `/root/cheshi_v2_reviewer_terra`, reviewed commit `d177239558798f4d1c8e2eb7fa30f7fab5c2372e`.
-- Reviewer-receipt SHA correction: the reviewed commit is `d177239558798f4d8c1e2eb7fa30f7fab5c2372e`.
+- Independent Reviewer receipt: `/root/cheshi_v2_acceptance_reviewer`, reviewed commit `66c6f5b779b6a8768c5feaf461a93dc3b713d918`.
 
 | Check | Result |
 | --- | --- |
@@ -15,7 +14,7 @@
 | `node bin/reading-list.js summary` | PASS: deterministic output |
 | `git diff --check` | PASS |
 
-Independent integration Reviewer: `/root/cheshi_v2_reviewer_terra`; prior conclusion: Reject on `d177239` pending metadata corrections. This metadata snapshot requires a final independent review.
+Independent integration Reviewer: `/root/cheshi_v2_acceptance_reviewer`; conclusion on reviewed commit `66c6f5b`: code and tests pass, metadata corrections required before final acceptance.
 Integration Owner: `A Integration`. Project Acceptor: `B Acceptor`. Default Branch Merger: `C Default Branch Merger`. PR and `main` merge: not authorized or performed.
 
 The project owner later authorized a documentation-only scope exception for
