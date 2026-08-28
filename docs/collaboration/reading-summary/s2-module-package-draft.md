@@ -5,7 +5,7 @@ package_version: module-package/v1-draft
 status: proposed
 feature_id: FEAT-READING-SUMMARY
 baseline_commit: 59b4c6fb8e6e8bafba0bd92266bf62a176a1b10e
-integration_branch: feature/reading-summary-integration
+integration_branch: feature/reading-summary-integration-v2
 default_branch: main
 implementation_authorized: false
 main_merge_status: blocked-pending-acceptance-and-remote-protection-check
@@ -100,7 +100,7 @@ S1 spec + S2 package
         |
         +--> MOD-001 -- independent review --+
         |                                     |
-        +--> MOD-002 -- independent review --+--> INT-001 on feature/reading-summary-integration
+        +--> MOD-002 -- independent review --+--> INT-001 on feature/reading-summary-integration-v2
                                                        |
                                               Project acceptance
                                                        |
@@ -108,7 +108,7 @@ S1 spec + S2 package
 ```
 
 MOD-001 and MOD-002 may start in parallel from the exact assigned package
-commit. Each module opens a PR to `feature/reading-summary-integration`, never
+commit. Each module opens a PR to `feature/reading-summary-integration-v2`, never
 directly to `main`. INT-001 begins only after both module reviews pass.
 
 ## 5. Evidence and stale rules

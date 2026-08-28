@@ -20,11 +20,13 @@ The v2 integration snapshot contains the rebuilt module commits:
 
 | Module | Final branch head | Implementation commit | Reviewer evidence commit |
 | --- | --- | --- | --- |
-| MOD-001 | v2 commit `16fedd3` | `16fedd3` | receipt by `/root/cheshi_v2_acceptance_reviewer` on `66c6f5b` |
-| MOD-002 | v2 commit `f19f38a` | `f19f38a` | receipt by `/root/cheshi_v2_acceptance_reviewer` on `66c6f5b` |
+| MOD-001 | v2 commit `16fedd3` | `16fedd3` | fresh receipt pending for the final snapshot |
+| MOD-002 | v2 commit `f19f38a` | `f19f38a` | fresh receipt pending for the final snapshot |
 
-The current implementation snapshot reviewed by the independent Reviewer is
-`66c6f5b779b6a8768c5feaf461a93dc3b713d918`.
+The previous implementation snapshot `66c6f5b779b6a8768c5feaf461a93dc3b713d918`
+was reviewed before the final evidence metadata corrections. It is historical
+and does not authorize the current snapshot. A new independent Reviewer must
+bind its receipt to the exact final HEAD after these corrections.
 
 ## Integration Behavior
 
