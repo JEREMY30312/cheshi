@@ -1,0 +1,11 @@
+{
+  "name": "reading-list-cli-fixture",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "list": "node bin/reading-list.js list",
+    "test": "node --test"
+  }
+}
+

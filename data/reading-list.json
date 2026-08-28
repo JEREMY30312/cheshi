@@ -1,0 +1,6 @@
+[
+  { "id": "book-001", "title": "A Philosophy of Software Design", "status": "unread", "priority": "high" },
+  { "id": "book-002", "title": "Designing Data-Intensive Applications", "status": "reading", "priority": "normal" },
+  { "id": "book-003", "title": "The Pragmatic Programmer", "status": "completed", "priority": "high" }
+]
+
