@@ -13,7 +13,9 @@ if (command !== "list" && command !== "summary") {
   process.exitCode = 1;
 } else {
   const currentDirectory = dirname(fileURLToPath(import.meta.url));
-  const fixturePath = resolve(currentDirectory, "../data/reading-list.json");
+  const fixturePath = process.env.READING_LIST_FIXTURE_PATH
+    ? resolve(process.env.READING_LIST_FIXTURE_PATH)
+    : resolve(currentDirectory, "../data/reading-list.json");
   try {
     const entries = await loadEntries(fixturePath);
     const output = command === "summary"
