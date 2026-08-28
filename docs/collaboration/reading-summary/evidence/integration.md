@@ -2,7 +2,7 @@
 
 - Snapshot branch: `feature/reading-summary-integration-v2`
 - Base package commit: `a13a80e22b07cd51d99fd76780b170196b3e9617`
-- Contract/package SHA-256: `3a80db5877c901317f4afbb07d99856dd0d0591659a5f880b2d3820d0abb9516`
+- Contract/package SHA-256: `1f3a3b54b55fdae20a409cbae4c48c69f4e24d5cb1a494cd9d19e596f81bde0e`
 - Historical integration check commit: `c1dfd2a`
 - Historical failure-path test commit: `16fc789`
 - Independent Reviewer receipt: pending for the final snapshot after metadata correction.
