@@ -1,23 +1,18 @@
-# INT-001 Integration Evidence
+# INT-001 Integration Evidence (v2)
 
-## Result
+- Snapshot branch: `feature/reading-summary-integration-v2`
+- Base package commit: `a13a80e22b07cd51d99fd76780b170196b3e9617`
+- Contract/package SHA-256: `3a80db5877c901317f4afbb07d99856dd0d0591659a5f880b2d3820d0abb9516`
+- Integration implementation commit: `c1dfd2a`
+- Failure-path test commit: `16fc789`
+- Current evidence snapshot must be bound by the accepting Reviewer to `git rev-parse HEAD` at review time.
 
-- Integration commit: recorded after implementation and checks.
-- `main` merge: not performed.
-- PR: not created.
-
-## Commands
-
-| Command | Result |
+| Check | Result |
 | --- | --- |
-| `npm test` | pending until integration commit is recorded |
-| `npm run list` | pending until integration commit is recorded |
-| `node bin/reading-list.js summary` | pending until integration commit is recorded |
-| `git diff --check` | pending until integration commit is recorded |
+| `npm test` | PASS: 25 tests passed, 0 failed |
+| `npm run list` | PASS: baseline output |
+| `node bin/reading-list.js summary` | PASS: deterministic output |
+| `git diff --check` | PASS |
 
-## Acceptance Notes
-
-- Summary path is offline and reads the checked-in fixture only.
-- Existing list output is covered by an integration regression test.
-- Fixture immutability is checked before and after both commands.
-- Project acceptance and default-branch merge remain separate gates.
+Independent integration Reviewer: `unknown` pending v2 review.
+Project Acceptor: `unknown`. PR and `main` merge: not authorized or performed.
